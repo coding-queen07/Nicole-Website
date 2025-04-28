@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing</title>
+    <style>
+        @keyframes gradient-animation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        body {
+           font-family: 'Courier New', monospace;
+            background: #F4F4F4; /* Soft background for a clean look */
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background: linear-gradient(45deg, #B048B5, #FEA3AA, #F9B7FF, #434971);
+            background-size: 300% 300%;
+            animation: gradient-animation 6s ease infinite;
+            padding: 15px 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .banner ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 50px; /* Reduced gap for better balance */
+        }
+
+        .banner li {
+            display: inline;
+        }
+
+        .banner a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s, text-shadow 0.3s;
+        }
+
+        .banner a:hover {
+            color: #ADD8E6;
+            text-shadow: 0px 0px 5px white;
+        }
+
+        .header {
+            text-align: center;
+            color: #333;
+            margin: 20px 0;
+            font-size: 2.5rem;
+        }
+
+        .videos-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-item {
+            margin: 15px 0;
+        }
+
+        .video-item a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        .video-item a:hover {
+            color: #0056b3;
+        }
+
+        .container {
+          text-align: center;
+   font-family: 'Courier New', monospace; /* Specifies Times New Roman font */
+    line-height: 2; /* Sets double spacing */
+}
+
+        }
+    </style>
+</head>
+<body>
+    <nav class="banner">
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="writing.html">Writing</a></li>
+            <li><a href="videos.html">Videos & Graphics</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+<div class="videos-container">
+    <div style="display: flex; justify-content: center; gap: 50px;">
+        <!-- Column 1: First Video, Second Visual, and Bar Chart -->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+            <!-- First Video -->
+            <div class="video-item">
+                <a href="https://drive.google.com/file/d/1vco79GJtBVMqfijLQtsKSr5veptBdlPB/preview?usp=sharing" target="_blank">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/13/11/45/play-158609_1280.png" alt="Gamma Kappa Philanthropy Video 2024" style="width: 350px; height: auto; border-radius: 8px;">
+                </a>
+                <p>Gamma Kappa Philanthropy Video 2024</p>
+            </div>
+
+            <!-- Second Visual -->
+            <div style="position: relative; width: 300px; height: 500px;">
+                <a href="https://datawrapper.dwcdn.net/2YSGg/3/" target="_blank" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; text-decoration: none;"></a>
+                <iframe title="D.C. Homeless Shelter Bed Capacity vs. Projected Need (2020-2028)" 
+                        aria-label="Interactive line chart" id="datawrapper-chart-2YSGg" 
+                        src="https://datawrapper.dwcdn.net/2YSGg/3/" 
+                        scrolling="no" frameborder="0" 
+                        style="border: none; width: 100%; height: 100%;"></iframe>
+            </div>
+
+            <br><br><!-- Bar Chart (Resized) -->
+            <div style="position: relative; width: 300px; height: 600px;">
+                <a href="https://datawrapper.dwcdn.net/nzpRm/1/" target="_blank" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; text-decoration: none;"></a>
+                <iframe title="E-Scooters and Urban Surfaces: A Collision of Data" 
+                        aria-label="Bar Chart" id="datawrapper-chart-nzpRm" 
+                        src="https://datawrapper.dwcdn.net/nzpRm/1/" 
+                        scrolling="no" frameborder="0" 
+                        style="border: none; width: 100%; height: 200%;"></iframe>
+            </div>
+        </div>
+
+        <!-- Column 2: Second Video, First Visual, and Last Map -->
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 20px;">
+            <!-- Second Video -->
+            <div class="video-item">
+                <a href="https://drive.google.com/file/d/15h_2v2IUyd2PjoFmLsDxjKKDeqfIMELv/preview?usp=sharing" target="_blank">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/13/11/45/play-158609_1280.png" alt="Gamma Kappa Recruitment Video 2024" style="width: 350px; height: auto; border-radius: 8px;">
+                </a>
+                <p>Gamma Kappa Recruitment Video 2024</p>
+            </div>
+
+            <!-- First Visual -->
+            <a href="https://datawrapper.dwcdn.net/ed9NK/2/" target="_blank" style="text-decoration: none;">
+                <div style="width: 300px; height: 500px; border-radius: 10px; overflow: hidden;">
+                    <script type="text/javascript" defer src="https://datawrapper.dwcdn.net/ed9NK/embed.js" charset="utf-8" data-target="#datawrapper-vis-ed9NK"></script>
+                    <noscript>
+                        <img src="https://datawrapper.dwcdn.net/ed9NK/full.png" alt="Hypothermia Shelters in DC" style="width: 100%; height: auto;">
+                    </noscript>
+                </div>
+            </a>
+
+           <br><!-- Last Map (Resized) -->
+            <div style="position: relative; width: 300px; height: 500px;">
+                <a href="https://datawrapper.dwcdn.net/n1tM5/1/" target="_blank" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; text-decoration: none;"></a>
+                <iframe title="Mapping Youth in Juvenile Facilities Across United States: A 2021 Snapshot"
+                        aria-label="Map" id="datawrapper-chart-n1tM5" 
+                        src="https://datawrapper.dwcdn.net/n1tM5/1/" 
+                        scrolling="no" frameborder="0" 
+                        style="border: none; width: 100%; height: 100%;"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
